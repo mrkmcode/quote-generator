@@ -57,4 +57,9 @@ newQuoteBtn.addEventListener('click', newQuote);
 twitterBtn.addEventListener('click', tweetQuote);
 
 // On Load
+Particles.init({
+    selector: '.background',
+    color: ['#a8ddb5', '#7bccc4', '#4eb3d3'],
+    connectParticles: true
+});
 getQuotes();
